@@ -1,0 +1,6 @@
+- id: liccheck
+  name: Run Python License Checker
+  description: Check license compliance of python requirements
+  entry: liccheck
+  language: python
+  files: ^(.*requirements.*\.txt|setup\.cfg|setup\.py|pyproject\.toml|liccheck\.ini)$
